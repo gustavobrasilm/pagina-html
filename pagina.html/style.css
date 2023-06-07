@@ -1,0 +1,105 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+/* Estilização do cabeçalho */
+
+body {
+    margin: 0;
+    }
+
+.container {
+    line-height: 150%;
+}
+.header{
+    background-color: rgba(44, 4, 4, 0.418);
+align-items: center;
+padding: 15px;
+justify-content: space-between;
+display: flex;
+}
+
+.header h1 {
+    color: rgb(131, 7, 7);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .social a {
+padding: 0 5px;
+text-decoration: none;
+}
+
+/* Estilização do menu lateral */
+
+.left {
+    float: left;
+    width: 180px;
+    margin: 0;
+    padding: 1em;
+    }
+
+    ul {
+        list-style-type: none;
+        border-left: 1px solid grey;
+        margin: 0;
+        padding: 0;
+    }
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: blue;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: blue;
+    color: white;
+}
+
+/* estilização do conteudo princial */
+.content {
+margin-left: 200px;
+border-left: 2px solid  grey;
+padding: 1em;
+
+}
+
+/* Estilização da tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+td,
+th {
+    border: 2px solid rgb(72, 72, 72);
+    padding: 8px;
+}
+
+tr:nth-child(1){
+    background-color:  blue;
+    color: white;
+}
+
+tr td i.fa-brands {
+    text-align: center;
+    display: block;
+    font-size: 35px;
+}
+
+/* Estilização rodapé */
+
+.footer {
+    background-color:rgba(44, 4, 4, 0.418); 
+    padding: 55px 20px;
+    text-align: center;
+    color: white;
+}
